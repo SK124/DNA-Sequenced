@@ -12,6 +12,7 @@ Typical deep learning approaches to genomics classification are highly restricte
 These notebooks detail data preparation and training for language models based on the human genome. These models form the foundations for the classification models trained in the other directories. The language model architecture is based on the AWD-LSTM.
 
 **Human Genome**
+
 Genomic data is broken into tokens using a k-mer approach with a set stride between k-mers. For tokenization with k-mer length k and stride s, the input genomic sequences are broken into chunks of length k base pairs with a shift of s base pairs between k-mers.
 
 LM 0 details processing the human genome into a form we can feed into a model.
@@ -29,7 +30,7 @@ LM 5 trains a model with k-mer length 3 and stride 1
 LM 6 trains a model with k-mer length 1 and stride 1
 
 
-**lnc RNA**
+**lncRNA**
 
 These notebooks look at training a classification model to distinguish between human coding mRNA sequences and long noncoding RNA (lncRNA) sequences following the Genomic ULMFiT approach. This dataset comes from the paper A deep recurrent neural network discovers complex biological rules to decipher RNA protein-coding potential by Hill et al. and is available for download here.
 
