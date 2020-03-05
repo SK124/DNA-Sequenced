@@ -14,7 +14,10 @@ These notebooks detail data preparation and training for language models based o
 **Human Genome**
 
 Genomic data is broken into tokens using a k-mer approach with a set stride between k-mers. For tokenization with k-mer length k and stride s, the input genomic sequences are broken into chunks of length k base pairs with a shift of s base pairs between k-mers.
+So what are k-mers?
+
  ***k-mers:***
+ 
  In bioinformatics, k-mers are subsequences of length {\displaystyle k}k contained within a biological sequence. Primarily used within the context of computational genomics and sequence analysis, in which k-mers are composed of nucleotides (i.e. A, T, G, and C), k-mers are capitalized upon to assemble DNA sequences,[1] improve heterologous gene expression,[2][3] identify species in metagenomic samples,[4] and create attenuated vaccines.[5] Usually, the term k-mer refers to all of a sequence's subsequences of length {\displaystyle k}k, such that the sequence AGAT would have four monomers (A, G, A, and T), three 2-mers (AG, GA, AT), two 3-mers (AGA and GAT) and one 4-mer (AGAT). More generally, a sequence of length }**L** will have **L-k+1** k-mers and **n^{k}** total possible k-mers, where **n** is number of possible monomers (e.g. four in the case of DNA).
  
 
