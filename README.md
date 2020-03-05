@@ -26,6 +26,8 @@ LM 4 trains a model with k-mer length 5 and stride 1
 LM 5 trains a model with k-mer length 3 and stride 1
 
 LM 6 trains a model with k-mer length 1 and stride 1
+
+
 **lnc RNA**
 
 
