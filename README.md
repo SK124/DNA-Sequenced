@@ -1,5 +1,5 @@
 # DNA-Sequenced
-This is an implementation of ULMFiT for genomics classification using Pytorch and Fastai. The model architecture used is based on the AWD-LSTM model, consisting of an embedding, three LSTM layers, and a final set of linear layers.
+This is an reimplementation of ULMFiT for genomics classification using Pytorch and Fastai. The model architecture used is based on the AWD-LSTM model, consisting of an embedding, three LSTM layers, and a final set of linear layers.
 
 The ULMFiT approach uses three training phases to produce a classification model:
 
